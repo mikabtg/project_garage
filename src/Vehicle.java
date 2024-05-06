@@ -1,4 +1,4 @@
-public class Vehicle extends Garage {
+public class Vehicle  {
 //Attribute
     private String plateNo;
     private String type;
@@ -6,8 +6,7 @@ public class Vehicle extends Garage {
     private String color;
 
 //Konstruktor
-Vehicle (int level, int parkingSpot, String plateNo, String type, String brand, String color){
-    super(level, parkingSpot);
+Vehicle (String plateNo, String type, String brand, String color){
     this.plateNo = plateNo;
     this.type = type;
     this.brand = brand;
